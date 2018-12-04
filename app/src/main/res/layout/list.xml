@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="parent" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/block"
+        android:padding="@dimen/_1sdp"
+        android:visibility="visible"
+        app:layout_constraintDimensionRatio="h,3:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/imageButton_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/textView_charging_places"
+            android:layout_toRightOf="@id/textView_charging_places"
+            android:background="@color/background"
+            android:paddingLeft="@dimen/_87sdp"
+            app:srcCompat="@drawable/settings_1" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imageView_compass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="@dimen/_35sdp"
+            android:layout_marginLeft="@dimen/_35sdp"
+            android:layout_marginTop="0dp"
+            android:paddingTop="0dp"
+            app:srcCompat="@drawable/compass_4" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textView_picked_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imageView_compass"
+            android:paddingLeft="@dimen/_14sdp"
+            android:text="@string/picked_point"
+            android:textColor="@color/text"
+            android:textSize="@dimen/_9sdp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textView_name_of_points"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_picked_point"
+            android:layout_alignLeft="@id/textView_picked_point"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_90sdp"
+            android:ellipsize="end"
+            android:paddingLeft="@dimen/_14sdp"
+            android:paddingTop="@dimen/_2sdp"
+            android:singleLine="true"
+            android:text="@string/name_of_points"
+            android:textColor="@color/name_of_points"
+            android:textSize="@dimen/_8sdp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textView_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView_name_of_points"
+            android:layout_alignLeft="@id/textView_name_of_points"
+            android:paddingLeft="@dimen/_14sdp"
+            android:paddingTop="@dimen/_2sdp"
+            android:text="@string/distance"
+            android:textColor="@color/text"
+            android:textSize="@dimen/_8sdp" />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/textView_charging_places"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView_compass"
+            android:layout_alignLeft="@id/imageView_compass"
+            android:paddingTop="@dimen/_17sdp"
+            android:singleLine="true"
+            android:text="@string/charging_places"
+            android:textColor="@color/text"
+            android:textSize="@dimen/_11sdp" />
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/frame_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.110000014">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imageView_button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/frame_search"
+            android:layout_gravity="center_vertical|center_horizontal"
+            app:srcCompat="@drawable/button_search1" />
+
+        <android.support.v7.widget.AppCompatImageButton
+            android:id="@+id/imageButton_button_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:background="@drawable/button_search"
+            app:srcCompat="@drawable/search_2" />
+
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Last_Login_UI</string>
+    <string name="Log_In">Log In</string>
+    <string name="Forgot_password"><u>Forgot password?</u></string>
+    <string name="You_do_not">You do not have\nan account?</string>
+    <string name="SIGN_UP"><u>SIGN UP</u></string>
+    <string name="example">example@gmail.com</string>
+    <string name="password">12345678</string>
+    <string-array name="names_of_suppliers">
+        <item>Alina</item>
+        <item>Marina</item>
+        <item>Roman</item>
+        <item>Nikita</item>
+        <item>Nikita</item>
+        <item>Nikita</item>
+        <item>Nikita</item>
+        <item>Nikita</item>
+
+    </string-array>
+    <string name="picked_point"><b>PICKED POINT</b></string>
+    <string name="charging_places"><b>C H A R G I N G   \u0020  P L A C E S</b></string>
+    <string name="distance"><u><b>2,42 km.</b></u></string>
+    <string name="name_of_points"><b>Very_long_point_name_89278362454545466424827468</b></string>
+    <string name="charging_points_count">Charging points count</string>
+    <string name="apply">Apply</string>
+</resources>

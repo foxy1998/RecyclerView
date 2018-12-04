@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#Ffffff</color>
+    <color name="background">#ecebf0</color>
+    <color name="background1">#DCDCDC</color>
+    <color name="text">#3d7294</color>
+    <color name="frame">#bed0dd</color>
+    <color name="black">#000000</color>
+    <color name="name_of_points">#86a7bf</color>
+    <color name="name_of_points2">#6c90a8</color>
+</resources>
+    <!--5386a5-->
+    <!--6c90a8-->
